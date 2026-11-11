@@ -1,0 +1,23 @@
+Quick summary of the game:
+A virtual arm holds a dumbbell. The harder you flex your biceps, the higher it lifts. A green ghost ball shows where the weight should be, and the game scores how well you keep it there (Hold and Rep challenges, Light/Heavy levels). It logs everything to CSV for our results.
+
+What we still need to do:
+1. Record the loaded (dumbbell) data for all 4 of us: rest, MVC, 1-2 min no-load, 5 min with dumbbell. The prof needs both conditions, and we only have no-load so far.
+2. Ask the TA how to get BioRadio data into Python live.
+3. Build and test the Unity game (works with keyboard first, no sensor needed).
+4. Signal analysis: noise, FFT/PSD, filtering, RMS/MAV, load vs no-load, fatigue.
+5. Compare 3 filter settings (fast / balanced / smooth) on delay vs jitter.
+6. Gameplay session: each of us plays with all 3 filter settings.
+7. Report + video (photos/videos of setup + split-screen demo).
+
+Proposed roles (everyone is still a subject and presents their part):
+- A: data collection + live Python
+- B: signal analysis
+- C: Unity arm + EMG connection
+- D: game modes + game results + video editing
+
+Things we need to decide today:
+- Who takes which role
+- Dumbbell weight (same for all, ~2-3 kg)
+- Lab slots: loaded session by 6 Nov, gameplay by 8 Nov
+- Someone to confirm with the prof: written report needed or just video? 5 min continuous or in sets?

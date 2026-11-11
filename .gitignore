@@ -1,0 +1,35 @@
+# Unity generated folders & IDE artifacts (excluded so the Unity project stays lightweight)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity standalone build backup & runtime playtest logs
+EMGWeightlifting_Build/EMGWeightlifting_BackUpThisFolder_ButDontShipItWithYourGame/
+EMGWeightlifting_Build/GameLogs/
+*.log
+
+# Python cache & temporary live test logs
+__pycache__/
+*.py[cod]
+BioRadio_Student_Unity_Kit/Python_Bridge/live_*.csv
+
+# Unused large vendor SDK archives (Python bridge already includes BioRadioSDK.dll)
+BioRadio_Student_Unity_Kit/SDK/
+
+# Redundant early single-channel raw recordings (full 4-subject LOADED/ and UNLOADED/ sets are kept)
+BioRadio_Student_Unity_Kit/Python_Bridge/UNLOADED CH1/
